@@ -2,7 +2,9 @@
 <div style="border-radius:50%;">
     <img src="https://img.freepik.com/foto-gratis/bodegon-mesa-oficina_23-2148111403.jpg?size=626&ext=jpg&ga=GA1.1.2115290357.1698422652&semt=sph" alt="Texto alternativo">
 </div>
+
 # Hi there, it's Ari here!
+
 
 ```typescript
 // This is an example of what it's like to work with me, in a fun and enjoyable way!
