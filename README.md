@@ -1,15 +1,58 @@
 
-# Hi there, it's Ari here
 
-```javascript
-// Esto es un ejemplo de un bloque de código en JavaScript
-function saludar(nombre) {
-console.log("¡Hola, " + nombre + "!");
+<style>
+.imagen-circular {
+    width: 100px; /* Ajusta el ancho y alto según tus necesidades */
+    height: 100px;
+    border-radius: 50%; /* Esto crea una forma circular */
+    overflow: hidden; /* Recorta la imagen a la forma circular */
+}
+</style>
+
+
+
+<div class="imagen-circular">
+    <img src="https://img.freepik.com/foto-gratis/bodegon-mesa-oficina_23-2148111403.jpg?size=626&ext=jpg&ga=GA1.1.2115290357.1698422652&semt=sph" alt="Texto alternativo">
+</div># Hi there, it's Ari here
+
+```typescript
+// This is an example of what it's like to work with me, in a fun and enjoyable way!
+class AriPerson {
+  private qualities: string[];
+
+  constructor(qualities: string[]) {
+    this.qualities = qualities;
+  }
+
+  isEmpathetic() {
+    return this.qualities.includes('empathetic');
+  }
+
+  isSelfTaught() {
+    return this.qualities.includes('self-taught');
+  }
+
+  isResponsible() {
+    return this.qualities.includes('responsible');
+  }
+
+  isCommunicative() {
+    return this.qualities.includes('communicative');
+  }
 }
 
-saludar("Mundo");
-```
-I'm a passionate self-taught software developer with a strong focus on front-end development. My expertise spans various technologies, including React JS, React Native, Angular 10+, Node.js, and JavaScript tools. Additionally, I have been exploring and working with AWS cloud services.
+function developFriendlyProjects(person: AriPerson) {
+  if (person.isEmpathetic() && person.isSelfTaught() && person.isResponsible() && person.isCommunicative()) {
+    console.log('Developing friendly projects optimally.');
+  } else {
+    console.log('Not all qualities are met to develop friendly projects optimally.');
+  }
+}
 
-My passion lies in turning designs into functional and aesthetically appealing digital products. I'm dedicated to finding the perfect balance between design and functionality. I always strive to create exceptional user experiences and value the challenges that come with high-quality software development."
+const myQualities = ['empathetic', 'self-taught', 'responsible', 'communicative'];
+const me = new Person(myQualities);
+
+developFriendlyProjects(me);
+
+```
 
