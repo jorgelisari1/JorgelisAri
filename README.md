@@ -1,17 +1,5 @@
 
-
-<style>
-.imagen-circular {
-    width: 100px; /* Ajusta el ancho y alto según tus necesidades */
-    height: 100px;
-    border-radius: 50%; /* Esto crea una forma circular */
-    overflow: hidden; /* Recorta la imagen a la forma circular */
-}
-</style>
-
-
-
-<div class="imagen-circular">
+<div style="border-radius:50%;">
     <img src="https://img.freepik.com/foto-gratis/bodegon-mesa-oficina_23-2148111403.jpg?size=626&ext=jpg&ga=GA1.1.2115290357.1698422652&semt=sph" alt="Texto alternativo">
 </div># Hi there, it's Ari here
 
